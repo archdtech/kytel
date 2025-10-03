@@ -22,10 +22,16 @@ export default function BusinessMastermind() {
       <nav className="mx-auto max-w-6xl px-6 pt-6">
         <div className="flex justify-between items-center">
           <div className="text-xl font-semibold text-gray-900">Alaa Almallah</div>
-          <div className="flex gap-4">
-            <Button variant="ghost" className="text-gray-600 hover:text-purple-600" onClick={() => window.location.href = '/'}>Workshops</Button>
-            <Button variant="ghost" className="text-gray-600 hover:text-teal-600" onClick={() => window.location.href = '/mastermind'}>ThinkTank</Button>
-            <Button variant="ghost" className="text-gray-600 hover:text-orange-600" onClick={() => window.location.href = '/product-discovery'}>Product Discovery</Button>
+          <div className="flex gap-2">
+            <Button variant="ghost" className="text-gray-600 hover:text-purple-600 text-sm px-3 py-1" onClick={() => window.location.href = '/'}>Workshops</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-teal-600 text-sm px-3 py-1" onClick={() => window.location.href = '/mastermind'}>ThinkTank</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-orange-600 text-sm px-3 py-1" onClick={() => window.location.href = '/product-discovery'}>Product</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-blue-600 text-sm px-3 py-1" onClick={() => window.location.href = '/commercial-due-diligence'}>Due Diligence</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-green-600 text-sm px-3 py-1" onClick={() => window.location.href = '/market-analysis'}>Market</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-indigo-600 text-sm px-3 py-1" onClick={() => window.location.href = '/strategic-advisory'}>Advisory</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-red-600 text-sm px-3 py-1" onClick={() => window.location.href = '/financial-modeling'}>Financial</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-yellow-600 text-sm px-3 py-1" onClick={() => window.location.href = '/operational-excellence'}>Operations</Button>
+            <Button variant="ghost" className="text-gray-600 hover:text-pink-600 text-sm px-3 py-1" onClick={() => window.location.href = '/growth-strategy'}>Growth</Button>
           </div>
         </div>
       </nav>
@@ -49,6 +55,7 @@ export default function BusinessMastermind() {
             <div className="mt-8 flex gap-3">
               <Button size="lg" className="rounded-2xl bg-teal-600 hover:bg-teal-700" onClick={() => setInterest("join")}>Join ThinkTank</Button>
               <Button size="lg" variant="outline" className="rounded-2xl border-teal-600 text-teal-600 hover:bg-teal-50" onClick={() => setInterest("schedule")}>View Schedule</Button>
+              <Button size="lg" variant="outline" className="rounded-2xl border-teal-600 text-teal-600 hover:bg-teal-50" onClick={() => window.open('/api/one-pagers/BUSINESS_MASTERMIND_ONE_PAGER.md', '_blank')}>Download One-Pager</Button>
             </div>
           </div>
           <div className="relative rounded-3xl border border-teal-200 bg-gradient-to-br from-teal-50 to-white p-6 shadow-lg">
