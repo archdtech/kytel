@@ -1,58 +1,43 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# 🎯 Alaa Almallah - Professional Services Portfolio
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+A modern, responsive website showcasing Alaa Almallah's comprehensive professional services including AI business workshops, strategic consulting, and innovation advisory services.
 
-## ✨ Technology Stack
+## ✨ Featured Services
 
-This scaffold provides a robust foundation built with:
+This website presents 9 core professional services designed to help businesses and organizations leverage technology, strategy, and innovation:
 
-### 🎯 Core Framework
-- **⚡ Next.js 15** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+### 🧠 AI & Business Strategy
+- **AI Business Workshop** - Interactive workshops on AI implementation and ROI
+- **Business Mastermind (ThinkTank)** - Strategic sessions for business leaders
+- **Strategic Advisory** - High-level consulting for organizational growth
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
+### 📊 Business Analysis & Consulting
+- **Market Analysis** - Comprehensive market research and insights
+- **Commercial Due Diligence** - Thorough business assessment and validation
+- **Financial Modeling** - Data-driven financial projections and analysis
 
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
+### 🚀 Product & Operations
+- **Product Discovery** - User-centered product development and research
+- **Operational Excellence** - Process optimization and efficiency improvements
+- **Growth Strategy** - Scalable business growth planning and execution
 
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Axios** - Promise-based HTTP client
+## 🎯 Key Features
 
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation Node.js and TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
+### 📄 One-Pager Download System
+- **Secure API Routes**: Protected file download system for service one-pagers
+- **Professional Documentation**: Comprehensive marketing materials for each service
+- **Easy Access**: Direct download links from each service page
 
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
+### 🎨 Modern Web Experience
+- **Responsive Design**: Mobile-first approach with seamless cross-device experience
+- **Consistent Navigation**: Unified navigation system across all service pages
+- **Professional Styling**: Clean, modern UI using Tailwind CSS and shadcn/ui components
 
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
-
-## 🎯 Why This Scaffold?
-
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
+### 🔧 Technical Implementation
+- **Next.js 15**: Latest React framework with App Router
+- **TypeScript**: Type-safe development environment
+- **API Integration**: Secure backend API for file serving
+- **Performance Optimized**: Fast loading and smooth interactions
 
 ## 🚀 Quick Start
 
@@ -70,72 +55,74 @@ npm run build
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
-
-## 🤖 Powered by Z.ai
-
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
-
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
-
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
+Open [http://localhost:3000](http://localhost:3000) to explore the services portfolio.
 
 ## 📁 Project Structure
 
 ```
 src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
+├── app/                              # Next.js App Router pages
+│   ├── api/one-pagers/              # API routes for one-pager downloads
+│   ├── commercial-due-diligence/    # Commercial Due Diligence service page
+│   ├── financial-modeling/           # Financial Modeling service page
+│   ├── growth-strategy/              # Growth Strategy service page
+│   ├── market-analysis/              # Market Analysis service page
+│   ├── operational-excellence/      # Operational Excellence service page
+│   ├── strategic-advisory/           # Strategic Advisory service page
+│   ├── mastermind/                   # Business Mastermind service page
+│   ├── product-discovery/            # Product Discovery service page
+│   └── page.tsx                      # AI Business Workshop homepage
+├── components/                       # Reusable React components
+│   └── ui/                          # shadcn/ui components
+└── lib/                             # Utility functions and configurations
+
+docs/                                 # Service documentation
+one-pagers/                          # Downloadable one-pager documents
 ```
 
-## 🎨 Available Features & Components
+## 📄 Available Services & Documentation
 
-This scaffold includes a comprehensive set of modern web development tools:
+Each service includes:
+- **Dedicated Landing Page**: Comprehensive service overview with features and benefits
+- **One-Pager Document**: Downloadable PDF/Markdown with detailed service information
+- **Professional Design**: Consistent branding and user experience
+- **Contact Integration**: Easy booking and inquiry options
 
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
+### Service Pages:
+1. **AI Business Workshop** (`/`) - Interactive AI implementation workshops
+2. **Business Mastermind** (`/mastermind`) - Strategic think tank sessions
+3. **Product Discovery** (`/product-discovery`) - User-centered product development
+4. **Commercial Due Diligence** (`/commercial-due-diligence`) - Business assessment services
+5. **Market Analysis** (`/market-analysis`) - Comprehensive market research
+6. **Strategic Advisory** (`/strategic-advisory`) - High-level consulting
+7. **Financial Modeling** (`/financial-modeling`) - Financial projections and analysis
+8. **Operational Excellence** (`/operational-excellence`) - Process optimization
+9. **Growth Strategy** (`/growth-strategy`) - Business growth planning
 
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
+## 🔧 Technical Stack
 
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
+### Core Technologies
+- **⚡ Next.js 15** - React framework with App Router
+- **📘 TypeScript 5** - Type-safe JavaScript development
+- **🎨 Tailwind CSS 4** - Utility-first CSS framework
+- **🧩 shadcn/ui** - High-quality accessible components
 
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Axios + TanStack Query
-- **State Management**: Simple and scalable with Zustand
+### Features & Functionality
+- **📄 File Download System** - Secure API for serving one-pager documents
+- **🎨 Responsive Design** - Mobile-first responsive layout
+- **🔄 Consistent Navigation** - Unified navigation across all pages
+- **📱 Modern UI** - Clean, professional user interface
 
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
+## 🤝 About Alaa Almallah
 
-## 🤝 Get Started with Z.ai
+Product Designer & Innovation Strategist with deep experience in web3 and Generative AI. Helping founders and leadership teams turn complex ideas into decision maps and scalable systems through strategic workshops, advisory services, and hands-on consulting.
 
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+### Expertise Areas:
+- **Design Systems** - Scalable design infrastructure
+- **AI Product Architecture** - Strategic AI implementation
+- **Strategy Sprints** - Rapid business planning and execution
+- **Data & Concept Visualization** - Clear communication of complex ideas
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+Built with ❤️ for professional service excellence. Showcasing comprehensive business consulting and advisory services.
